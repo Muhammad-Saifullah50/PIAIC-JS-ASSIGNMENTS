@@ -7,7 +7,7 @@ for (let i = 1; i <= 5; i++) {
 
 alert(courses)
 
-for (let i = 1; i = courses.length; i++) {
+for (let i = 0; i <= 4; i++) {
     let courseNameEdit = prompt(`Edit course ${i} name`, "");
     courses.splice(i, 1, courseNameEdit);
 
